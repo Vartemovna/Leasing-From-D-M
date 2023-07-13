@@ -10,7 +10,7 @@ html {
 
 ul {
   list-style: none;
-  max-width: 250px;
+  /* max-width: 250px; */
 }
 
 a {
@@ -72,6 +72,10 @@ body {
 
 }
 
+.footer__menu-list{
+  max-width: 250px;
+}
+
 .footer__menu-title {
   font-size: 24px;
   font-weight: 700;
@@ -80,4 +84,25 @@ body {
 
 .footer__menu-item + .footer__menu-item {
   padding-top: 20px;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  gap: 39px;
+  margin-bottom: 52px;
+}
+
+.footer__copy-text{
+  font-size: 12px;
+  width: 806px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.copy__nav-list{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 30px;
 }
