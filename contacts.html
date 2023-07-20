@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +8,23 @@
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
   <div class="wrapper">
     <header class="header">
       <div class="container">
         <div class="header__inner">
-          <a href="#" class="logo">
+          <a href="index.html" class="logo">
             <img src="img/logo.svg" alt="" class="logo__img">
           </a>
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__list-item">
-                <a href="#" class="menu__list-link">NEW CARS</a>
+                <a href="new-cars.html" class="menu__list-link">NEW CARS</a>
               </li>
               <li class="menu__list-item">
                 <a href="#" class="menu__list-link">PRE-OWNED CARS</a>
@@ -34,7 +36,7 @@
                 <a href="#" class="menu__list-link">LEASE VS BUY</a>
               </li>
               <li class="menu__list-item">
-                <a href="#" class="menu__list-link">CONTACT US</a>
+                <a href="contacts.html" class="menu__list-link menu__list-link--active">CONTACT US</a>
               </li>
             </ul>
           </nav>
@@ -42,8 +44,38 @@
       </div>
     </header>
     <main class="main">
+      <section class="contacts">
+        <div class="container">
+          <h2 class="section-title contacts__title">Contact Us</h2>
+          <h4 class="contacts__text">Feel free to contact us with questions, potencial partnerships or media inquiries
+          </h4>
+          <form action="#" class="form">
+            <input type="text" class="form__input" placeholder="Name">
+            <input type="email" class="form__input" placeholder="E-mail">
+            <textarea class="form__textarea" placeholder="Your text"></textarea>
+            <button class="form__btn" type="submit">SUBMIT</button>
+          </form>
+        </div>
+      </section>
 
-      
+      <section class="blog">
+        <div class="container">
+          <div class="blog__items">
+            <div class="blog__item">
+              <img src="img/blog-1.jpg" alt="" class="blog__item-img">
+              <h4 class="blog__item-title">An easier way to buy your next Toyota</h4>
+              <a href="#" class="blog__item-link">more</a>
+            </div>
+            <div class="blog__item">
+              <img src="img/blog-2.jpg" alt="" class="blog__item-img">
+              <h4 class="blog__item-title">A Guide to Road-Tripping With Pets</h4>
+              <a href="#" class="blog__item-link">more</a>
+            </div>
+          </div>
+          <a class="show__link" href="#">SHOW MORE</a>
+        </div>
+      </section>
+
 
     </main>
     <footer class="footer">
@@ -116,10 +148,13 @@
         <div class="footer__copy">
           <p class="footer__copy-text">
             For questions about the TrueCar Auto Buying Service please call 1-888-878-3227.
-            Certified Dealers are contractually obligated by TrueCar to meet certain customer service requirements and complete the TrueCar Dealer Certification Program.
+            Certified Dealers are contractually obligated by TrueCar to meet certain customer service requirements and
+            complete the TrueCar Dealer Certification Program.
           </p>
           <p class="footer__copy-text">
-            TrueCar does not broker, sell, or lease motor vehicles. Unless otherwise noted, all vehicles shown on this website are offered for sale by licensed motor vehicle dealers. All vehicles are subject to prior sale. By accessing this website, you agree to the TrueCar Terms of Service and Privacy Policy.
+            TrueCar does not broker, sell, or lease motor vehicles. Unless otherwise noted, all vehicles shown on this
+            website are offered for sale by licensed motor vehicle dealers. All vehicles are subject to prior sale. By
+            accessing this website, you agree to the TrueCar Terms of Service and Privacy Policy.
           </p>
         </div>
         <nav class="copy__nav">
@@ -140,4 +175,5 @@
   </div>
 
 </body>
+
 </html>
